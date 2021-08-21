@@ -1,0 +1,74 @@
+body{
+    color:white;
+    background:rgb(100, 237, 130);
+    font: normal 20px arial;
+}
+p{
+    font: 15px;
+    font-weight: bold;
+}
+select{
+    border: none;
+    background-color: rgb(100, 237, 130);
+    color: white;
+    font: bolder 20px arial;
+}
+button{
+    border: none;
+    box-shadow: 0 5px black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(100, 237, 130);
+}
+button:hover{
+    background-color: rgb(80, 189, 103);
+}
+button:active{
+    transform:translateY(5px);
+    box-shadow: 0 2px black;
+}
+input{
+    border-style: solid;
+    border-color: rgb(100, 237, 130);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    width: 40px;
+}
+header{
+    text-align: center;
+}
+section{
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
+#inferior{
+    flex-direction: row;
+    display: flex;
+}
+#inferior-direito{
+    margin: 0px 0px 0px 10px;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    font: bolder 20px arial;   
+    padding: 10px;
+}
+div#inferior-esquerdo{  
+    border-radius: 10px;
+    width: min-content;
+    padding: 10px 20px 10px 10px;
+    
+}

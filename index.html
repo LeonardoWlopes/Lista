@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="titulo">
+        <h1>Lista</h1>
+    </header>
+
+    <section>
+        <div id="superior">
+            <p>Escolha um numero (1 a 100)
+                <input type="number" id="input" onkeypress="">
+                <button onclick="enviar()">Enviar</button>
+                <button onclick="finalizar()">Finalizar</button>
+                <button onclick="limpar()">Limpar</button>
+            </p>
+        </div>
+        <div id="inferior">
+            <div id="inferior-esquerdo"></div>
+            <div id="inferior-direito"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; LeonardoWlopes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
