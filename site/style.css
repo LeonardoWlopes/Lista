@@ -48,7 +48,7 @@ section{
     margin: auto;
     width: 600px;
     align-items: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 5px rgb(80, 189, 103);
 }
 footer{
     text-align: center;
